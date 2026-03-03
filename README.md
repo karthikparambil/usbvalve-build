@@ -2,7 +2,7 @@
 
 This repository serves as a detailed documentation of my personal build of **USBValve**, an incredible open-source hardware project originally designed and created by [Cesare Pizzi (cecio)](https://github.com/cecio). Building this device has been a fantastic way to learn more about hardware security, the inner workings of USB protocols, and the practical application of microcontrollers in defensive tooling.
 
-## **🛡️ What is USBValve?**
+## **What is USBValve?**
 
 USBValve is a defensive hardware tool designed to inspect and analyze untrusted USB devices in a safe, isolated environment. It essentially acts as a "hardware firewall," an air-gapped bridge, between a potentially dangerous USB device and your valuable computer system.
 
@@ -14,18 +14,15 @@ It displays all this critical information—identifying the exact device class a
 
 **Original Repository & Source Code:** [https://github.com/cecio/USBvalve](https://github.com/cecio/USBvalve)
 
-## **🔧 Hardware Bill of Materials (BOM)**
+## **🔧 Hardware Bill of Materials**
 
 I built this device following the exact specifications and schematic provided in the original project. Here is a detailed breakdown of the components I sourced for the assembly:
 
 | Component | Details & Notes |
 | :---- | :---- |
-| **Microcontroller** | **Raspberry Pi Pico (RP2040)** This is the brain of the operation. Selected for its low cost, widespread availability, and incredibly robust USB support via PIO. |
-| **Display** | **0.96" OLED I2C Display (SSD1306)** Essential for the user interface. Used to clearly visualize the USB descriptors, VID/PID, device class (e.g., Mass Storage vs. HID Keyboard), and security alerts in real-time. |
-| **USB Type-A Female** | Output This serves as the primary input port where you plug in the device you want to test. Ensure a solid connection to read data reliably. |
-| **Connectors ()** | **USB Type-A Male (or Female, depending on your build)** This connects the USBValve to your host computer for power and (safely filtered) data transfer. If you use a female port here, you'll need a Male-to-Male USB cable to connect it to your PC. |
-| **Wiring** | **Standard Jumper Wires / Custom PCB** Depending on the build style, you can use a breadboard for testing or solder directly to a perfboard for a permanent, reliable tool. |
-| **Case** | **\[e.g., 3D Printed PETG / Generic Plastic Box\]** A protective enclosure is crucial to keep the electronics safe from shorts and damage, making it a portable part of any cybersecurity toolkit. |
+| **Microcontroller** | **Raspberry Pi Pico**  |
+| **Display** | **0.96" OLED I2C Display**  |
+| **USB Type-A Female** | **serves output** |
 
 ## **📸 Build Gallery**
 
@@ -67,9 +64,8 @@ This project is constructed strictly for **educational and defensive purposes**.
 
 I am not the original author of the code or the hardware design; this repository serves only as a documentation of my personal assembly of the tool to demonstrate my soldering, hardware assembly skills, and understanding of USB security concepts. Please use this tool responsibly and only on devices you own or have permission to test.
 
-## **📜 Credits & License**
+## **📜 Credits**
 
 All credit for the original concept, schematic, and software engineering goes to **Cesare Pizzi**.
 
 * **Original Project:** [cecio/USBvalve](https://github.com/cecio/USBvalve)  
-* **License:** This project is open-source under the [MIT License](https://github.com/cecio/USBvalve/blob/main/LICENSE), allowing for modification and distribution with proper attribution.
