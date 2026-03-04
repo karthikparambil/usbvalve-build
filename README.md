@@ -25,30 +25,8 @@ I built this device following the exact specifications and schematic provided in
 | **USB Type-A Female** | **serves output** |
 
 ## **📸 Build Gallery**
-
-*Note: This section will be updated with photos of my soldering process, internal wiring, and the final assembled unit.*
-
-\<\!--
-
-INSTRUCTIONS FOR USER:
-
-Upload your high-quality images to your GitHub repository (e.g., inside a folder named 'img').
-
-Then, uncomment the lines below and change the filenames to match your specific image paths.
-
-\--\>
-
-\<\!--
-
-### **Internal Wiring**
-
-*A look at the connections between the Pico, the USB port, and the OLED screen. Pay close attention to the D+ and D- lines.*
-
-### **Final Assembly**
-
-*The fully assembled device running a scan, showing a clear pass or fail reading.*
-
-\--\>
+<img src="images/image1.jpeg" width=40%>
+<img src="images/image2.jpeg" width=40%>
 
 ## **⚡ Firmware & Installation**
 
